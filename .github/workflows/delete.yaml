@@ -5,7 +5,7 @@ on:
 
 jobs:
   del_runs:
-    runs-on: macos-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Delete
         uses: GitRML/delete-workflow-runs@main
